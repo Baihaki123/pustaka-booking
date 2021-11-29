@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="<?= base_url('assets/user/css/bootstrap.css'); ?>">
     <link href="<?= base_url('assets/vendor/fontawesome/css/all.css'); ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url('assets/datatable/datatables.css'); ?>" rel="stylesheet" type="text/css">
+    <style>
+        .card {
+            -webkit-box-shadow: 5px 6px 11px -10px rgba(77,75,77,1);
+            -moz-box-shadow: 5px 6px 11px -10px rgba(77,75,77,1);
+            box-shadow: 5px 6px 11px -10px rgba(77,75,77,1);
+            border-radius: 10px;
+        }
+        .card:hover {
+            -webkit-box-shadow: 5px 6px 11px -4px rgba(77,75,77,1);
+            -moz-box-shadow: 5px 6px 11px -4px rgba(77,75,77,1);
+            box-shadow: 5px 6px 11px -4px rgba(77,75,77,1);
+        }
+    </style>
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,8 +39,8 @@
     <a class="nav-item navlink" href="<?= base_url('member/myprofil'); ?>">Profil Saya</a>
     <a class="nav-item navlink" href="<?= base_url('member/logout'); ?>"><i class="fas fw falogin"></i> Log out</a>
     <?php } else { ?>
-    <a class="nav-item nav-link" data-toggle="modal" datatarget="#daftarModal" href="#"><i class="fas fw fa-login"></i> Daftar</a>
-    <a class="nav-item nav-link" data-toggle="modal" datatarget="#loginModal" href="#"><i class="fas fw fa-login"></i> Log in</a>
+    <a class="nav-item nav-link" data-toggle="modal" data-target="#daftarModal" href="#"><i class="fas fw fa-login"></i> Daftar</a>
+    <a class="nav-item nav-link" data-toggle="modal" data-target="#loginModal" href="#"><i class="fas fw fa-login"></i> Log in</a>
     <?php } ?>
     <span class="nav-item nav-link navright" style="display:block; marginleft:20px;">Selamat Datang <b><?= $user; ?></b></span>
     </div>
