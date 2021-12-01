@@ -13,13 +13,13 @@
                     <div class="form-group row">
                         <label for="email" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="email" name="email" placeholder="Alamat Email">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Alamat Email" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
                         <div class="col-sm-10">
-                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
                         </div>
                     </div>
                 </div>
@@ -47,19 +47,19 @@
             <form action="<?= base_url('member/daftar'); ?>" method="post">
                 <div class="modal-body">
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-user" id="nama" name="nama" placeholder="Nama Lengkap">
+                        <input type="text" class="form-control form-control-user" id="nama" name="nama" placeholder="Nama Lengkap" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-user" id="alamat" name="alamat" placeholder="Alamat Lengkap">
+                        <input type="text" class="form-control form-control-user" id="alamat" name="alamat" placeholder="Alamat Lengkap" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-user" id="email" name="email" placeholder="Alamat Email">
+                        <input type="email" class="form-control form-control-user" id="email" name="email" placeholder="Alamat Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control form-control-user" id="password1" name="password1" placeholder="Password">
+                        <input type="password" class="form-control form-control-user" id="password1" name="password1" placeholder="Password" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control form-control-user" id="password2" name="password2" placeholder="Ulangi Password">
+                        <input type="password" class="form-control form-control-user" id="password2" name="password2" placeholder="Ulangi Password" required>
                     </div>
                 </div>
                 <div class="modal-footer">
