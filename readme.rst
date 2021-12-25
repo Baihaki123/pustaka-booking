@@ -7,13 +7,16 @@ USER dan PASSWORD
 ################
 
 
-**halaman admin** \n
+**halaman admin**
 
-username : parkjuned@gmail.com  \n
+username : parkjuned@gmail.com
 password : aski
 
-**halaman member**  \n
-username : aski@gmail.com   \n
+##################
+**halaman member** 
+##################
+username : aski@gmail.com  
+--------------------
 password : aski
 
 **Database menggunakan pustaka.sql yang berada di dalam folder database**
