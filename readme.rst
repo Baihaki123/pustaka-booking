@@ -13,7 +13,7 @@ username : parkjuned@gmail.com
 password : aski
 
 ##################
-**halaman member** 
+halaman member 
 ##################
 username : aski@gmail.com  
 --------------------
